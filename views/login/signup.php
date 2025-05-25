@@ -1,4 +1,4 @@
- <main class="flex min-h-full flex-col justify-center py-12 lg:px-80 md:px-20 px-400 antialiased">
+<main class="flex min-h-full flex-col justify-center py-12 lg:px-80 md:px-20 px-400 antialiased">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm w-500">
             <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Registrate</h2>
         </div>
@@ -25,7 +25,7 @@
                     <input type="password" name="password" id="password" required placeholder="Contraseña" class="password mb-2 block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 border">
                     <input type="password" name="password" id="confirm_password" required placeholder="Confirmar contraseña" class="password block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 border">
                     <div class="flex mt-2">
-                        <input id="checkbox" class="text-90" type="checkbox" onclick="togglePasword()" >
+                        <input id="checkbox" class="text-90" type="checkbox"">
                         <p class="mx-5 text-gray-600 text-md">Mostrar contraseñas</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
 
 
             <div>
-                <button type="button" onclick="registerData()" class="flex w-full justify-center rounded-xl bg-primary-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-primary-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Crear cuenta</button>
+                <button id="submitForm" type="button" onclick="registerData()" class="flex w-full justify-center rounded-xl bg-primary-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-primary-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Crear cuenta</button>
             </div>
             </form>
 
@@ -50,55 +50,5 @@
             <p class="w-100 font-bold text-green-900">¡Cuenta creada exitosamente!</p>
         </div>
 </main>
-
-<script>
-    const togglePasword = () => {
-        const inputsPassword = document.getElementsByClassName('password');
-
-        Array.from(inputsPassword).forEach(element => {
-            element.type = element.type  === 'password'? 'text': 'password';
-        });
-    }
-
-    const registerData = () => {
-        const name = document.getElementById("user_name");
-        const email = document.getElementById("email");
-        const birthdate = document.getElementById("birthdate");
-        const password = document.getElementById("password");
-        const confirmPassword = document.getElementById("confirm_password");
-        const errorMessage = document.getElementById("error_message");
-        const messageSucces = document.getElementById("message_succes");
-
-        if(name.value==="" || email.value==="" || birthdate.value==="" || password.value===""){
-            messageSucces.style.display = "flex";
-            messageSucces.style.backgroundColor = "rgb(247 187 187)";
-            messageSucces.style.color = "rgb(83 20 20)";
-            messageSucces.textContent = "Hay campos incompletos";
-
-            return;
-        }
-        
-        messageSucces.style.display = "none";
-    
-        if(confirmPassword.value === password.value){
-            //enviar data a db para crear cuenta
-            messageSucces.style.display = "flex"; 
-            messageSucces.style.backgroundColor = "rgb(187 247 208)";//verde claro
-            messageSucces.style.color = "rgb(20 83 45)";//verde fuerte
-            messageSucces.textContent = "¡Cuenta creada exitosamente!";
-            password.style.backgroundColor = "white";
-            confirmPassword.style.backgroundColor = "white";
-            password.style.borderColor = "#d1d5db";
-            confirmPassword.style.borderColor = "#d1d5db";
-            errorMessage.style.display = "none"
-        }else{
-            errorMessage.style.display = "flex";
-            password.style.borderColor = "red";
-            confirmPassword.style.borderColor = "red";
-            password.style.backgroundColor = "#ffebeb";
-            confirmPassword.style.backgroundColor = "#ffebeb";
-        }
-
-    }
-</script>
-
+<script src="/assets/js/togglePassword.js"></script>
+<script src="/assets/js/registerData.js"></script>
