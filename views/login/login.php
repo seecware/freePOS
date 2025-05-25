@@ -1,4 +1,4 @@
-  <main class="flex min-h-full flex-col justify-center py-12 lg:px-80 md:px-20 px-400 antialiased">
+<main class="flex min-h-full flex-col justify-center py-12 lg:px-80 md:px-20 px-400 antialiased">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm w-500">
             <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Iniciar sesión</h2>
         </div>
