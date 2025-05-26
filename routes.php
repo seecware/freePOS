@@ -1,7 +1,8 @@
 <?php
 return [
     'GET' => [
-        '/' => ['StaticContentController', 'renderContent', "home", ["title" => "Home"]],
+        '/' => ['StaticContentController', 'renderContent', "landing", ["title" => "Home"]],
+        '/dashboard' => ['StaticContentController', 'renderContent', "home", ["title" => "Dashboard..."]],
         '/contact' => ['StaticContentController', 'renderContent', 'contact', ["title" => "Contact"]],
         '/new-client' => ['StaticContentController', 'renderContent', 'new-client', ["title" => "Adding client..."]],
         '/new-added-client' => ['ClientsController', 'confirmation', 'new-added-client', ["title" => "Added!"]],

@@ -1,17 +1,16 @@
-<button class="p-10 bg-sky-200 border-2 border-red-600" id="btnObtenerUbicacion">Run!</button>
 <main class="bg-slate-50 py-12 md:py-20">
   <section class="container mx-auto px-4 sm:px-6 lg:px-8">
 
-    <div class="text-center mb-16 md:mb-24">
+    <div class="text-center mb-4 md:mb-24">
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-800 mb-6 animate-fade-in-down">
-        Tu Punto de Venta y Tienda Online, <span class="text-sky-600">Hechos Simples</span>.
+        Tu Punto de Venta y Tienda Online, <span class="text-primary-600">Hechos Simples</span>.
       </h1>
       <video class="rounded-xl" autoplay muted loop src="/assets/videos/video.mp4"></video>
       <br>
       <p class="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto mb-8 animate-fade-in-up animation-delay-200">
         Gestiona tus ventas, inventario y lanza tu mini tienda en línea con una herramienta esencial, sin complicaciones. Todo lo que necesitas, directamente al grano.
       </p>
-      <a href="#descubre" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-fade-in-up animation-delay-400">
+      <a href="#descubre" class="inline-block bg-primary-600 hover:bg-secondary-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-fade-in-up animation-delay-400">
         Descubre Cómo
       </a>
     </div>
@@ -53,11 +52,11 @@
       </div>
       <div class="space-y-10">
         <div>
-          <h3 class="text-2xl font-semibold text-sky-700 mb-6 text-center sm:text-left">Punto de Venta Esencial</h3>
+          <h3 class="text-2xl font-semibold text-primary-700 mb-6 text-center sm:text-left">Punto de Venta Esencial</h3>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-200">
               <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h6m3-3.75l3 3m0 0l3-3m-3 3V1.5m9 4.524c0-1.108-.892-2.009-2-2.009H4.75a2 2 0 00-2 1.991L2.75 19.5a2 2 0 002 2h11.519c1.165 0 2.139-.935 2.241-2.099l.694-7.628c.065-.724-.107-1.45-.524-2.099Z" />
                 </svg>
               </div>
@@ -66,7 +65,7 @@
             </div>
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-300">
               <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10.5 11.25h3M12 17.25v-6M18.75 10.5c0-1.119-.91-2.021-2.036-2.021H7.286c-1.126 0-2.036.902-2.036 2.021" />
                 </svg>
               </div>
@@ -75,7 +74,7 @@
             </div>
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-400">
               <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h15.75c.621 0 1.125.504 1.125 1.125v6.75c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 19.875v-6.75ZM12 12.75V3M8.25 6l3.75-3.75M15.75 6l-3.75-3.75" />
                 </svg>
               </div>
@@ -86,11 +85,11 @@
         </div>
 
         <div>
-          <h3 class="text-2xl font-semibold text-sky-700 mb-6 text-center sm:text-left">Tu Mini Tienda Online Integrada</h3>
+          <h3 class="text-2xl font-semibold text-secondary-700 mb-6 text-center sm:text-left">Tu Mini Tienda Online Integrada</h3>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-500">
                <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21V3M4.684 15.562A9.004 9.004 0 0112 3c1.757 0 3.404.485 4.816 1.331M19.316 15.562A9.004 9.004 0 0112 21H4.684z" />
                 </svg>
               </div>
@@ -99,7 +98,7 @@
             </div>
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-600">
               <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                 </svg>
               </div>
@@ -108,7 +107,7 @@
             </div>
              <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in animation-delay-700">
               <div class="flex-shrink-0 mb-4">
-                <svg class="h-12 w-12 text-sky-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="h-12 w-12 text-secondary-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                 </svg>
               </div>
@@ -120,24 +119,24 @@
       </div>
     </div>
 
-    <div class="mb-16 md:mb-24 bg-sky-600 text-white py-12 sm:py-16 lg:py-20 rounded-xl shadow-xl">
+    <div class="mb-16 md:mb-24 bg-primary-700 text-white py-12 sm:py-16 lg:py-20 rounded-xl shadow-xl">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl sm:text-4xl font-semibold mb-10">Empezar es Más Fácil de lo que Imaginas</h2>
         <div class="grid md:grid-cols-3 gap-8 md:gap-12">
           <div class="animate-fade-in-up animation-delay-200">
-            <div class="bg-white/20 backdrop-blur-sm text-sky-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">1</div>
+            <div class="bg-white/20 backdrop-blur-sm text-secondary-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">1</div>
             <h3 class="text-xl font-semibold mb-2">Configuración Rápida</h3>
-            <p class="text-sky-100">Pocos pasos guiados y tendrás tu sistema listo para operar.</p>
+            <p class="text-secondary-100">Pocos pasos guiados y tendrás tu sistema listo para operar.</p>
           </div>
           <div class="animate-fade-in-up animation-delay-400">
-            <div class="bg-white/20 backdrop-blur-sm text-sky-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">2</div>
+            <div class="bg-white/20 backdrop-blur-sm text-secondary-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">2</div>
             <h3 class="text-xl font-semibold mb-2">Añade tus Productos</h3>
-            <p class="text-sky-100">Sube tu catálogo de forma masiva o individual en minutos.</p>
+            <p class="text-secondary-100">Sube tu catálogo de forma masiva o individual en minutos.</p>
           </div>
           <div class="animate-fade-in-up animation-delay-600">
-            <div class="bg-white/20 backdrop-blur-sm text-sky-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">3</div>
+            <div class="bg-white/20 backdrop-blur-sm text-secondary-100 p-6 rounded-full w-20 h-20 mx-auto flex items-center justify-center mb-4 text-3xl font-bold">3</div>
             <h3 class="text-xl font-semibold mb-2">Empieza a Vender</h3>
-            <p class="text-sky-100">En tu local y en línea, sin demoras ni complicaciones técnicas.</p>
+            <p class="text-secondary-100">En tu local y en línea, sin demoras ni complicaciones técnicas.</p>
           </div>
         </div>
       </div>
@@ -154,21 +153,21 @@
                 </div>
             <div class="space-y-6 animate-slide-in-right">
                 <div class="flex items-start">
-                    <svg class="w-7 h-7 text-sky-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    <svg class="w-7 h-7 text-secondary-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
                     <div>
                         <h4 class="text-xl font-semibold text-slate-700">Amplía tu Alcance</h4>
                         <p class="text-slate-600">Llega a clientes que no pueden visitar tu tienda física. Tu negocio abierto siempre.</p>
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <svg class="w-7 h-7 text-sky-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"></path></svg>
+                    <svg class="w-7 h-7 text-secondary-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"></path></svg>
                     <div>
                         <h4 class="text-xl font-semibold text-slate-700">Gestión Unificada</h4>
                         <p class="text-slate-600">Inventario y pedidos sincronizados entre tu POS y tu tienda online. Menos errores, más eficiencia.</p>
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <svg class="w-7 h-7 text-sky-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path></svg>
+                    <svg class="w-7 h-7 text-secondary-600 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path></svg>
                     <div>
                         <h4 class="text-xl font-semibold text-slate-700">Fácil para tus Clientes</h4>
                         <p class="text-slate-600">Una experiencia de compra online clara y directa que fomenta la conversión.</p>
@@ -186,23 +185,23 @@
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 animate-fade-in animation-delay-800">
             <div class="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-                <svg class="w-10 h-10 text-sky-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+                <svg class="w-10 h-10 text-secondary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
                 <p class="text-slate-700 font-medium">Pequeños Comercios</p>
             </div>
             <div class="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-                <svg class="w-10 h-10 text-sky-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
+                <svg class="w-10 h-10 text-secondary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
                 <p class="text-slate-700 font-medium">Cafeterías y Bistrós</p>
             </div>
             <div class="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-                <svg class="w-10 h-10 text-sky-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
+                <svg class="w-10 h-10 text-secondary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
                 <p class="text-slate-700 font-medium">Pop-Up Stores</p>
             </div>
             <div class="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-                <svg class="w-10 h-10 text-sky-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                <svg class="w-10 h-10 text-secondary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
                 <p class="text-slate-700 font-medium">Emprendedores Solitarios</p>
             </div>
             <div class="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
-                <svg class="w-10 h-10 text-sky-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a4 4 0 00-5.656 0M14 10l-4 4m0 0l-4-4m4 4V4"></path></svg> <p class="text-slate-700 font-medium">Vendedores Artesanales</p>
+                <svg class="w-10 h-10 text-secondary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a4 4 0 00-5.656 0M14 10l-4 4m0 0l-4-4m4 4V4"></path></svg> <p class="text-slate-700 font-medium">Vendedores Artesanales</p>
             </div>
         </div>
     </div>
@@ -211,7 +210,7 @@
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12 md:mb-16">
       <h2 class="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">
-        Construido sobre una <span class="text-sky-600">Base Tecnológica de Vanguardia</span>
+        Construido sobre una <span class="text-secondary-600">Base Tecnológica de Vanguardia</span>
       </h2>
       <p class="text-lg text-slate-600 max-w-3xl mx-auto">
         Para tu tranquilidad y para asegurar una experiencia fluida, segura y eficiente, hemos seleccionado cuidadosamente cada componente de nuestra plataforma. Utilizamos herramientas líderes en la industria, reconocidas mundialmente por su rendimiento, estabilidad y seguridad.
@@ -270,7 +269,7 @@
 
     <div class="mt-12 md:mt-16 text-center">
       <p class="text-lg text-slate-700 max-w-3xl mx-auto font-medium">
-        Esta poderosa combinación de tecnologías de primer nivel nos permite ofrecerte un Micro POS y tienda online que no solo es funcional y sencillo, sino también <strong class="text-sky-600">increíblemente robusto, rápido, seguro y preparado para el futuro</strong>.
+        Esta poderosa combinación de tecnologías de primer nivel nos permite ofrecerte un Micro POS y tienda online que no solo es funcional y sencillo, sino también <strong class="text-secondary-600">increíblemente robusto, rápido, seguro y preparado para el futuro</strong>.
       </p>
     </div>
   </div>
@@ -279,13 +278,13 @@
 
     <div class="bg-white p-8 sm:p-12 lg:p-16 rounded-xl shadow-2xl text-center animate-fade-in-up animation-delay-800">
       <h2 class="text-3xl sm:text-4xl font-semibold text-slate-800 mb-6">
-        Listo para Simplificar y <span class="text-sky-600">Hacer Crecer</span> tu Negocio?
+        Listo para Simplificar y <span class="text-secondary-600">Hacer Crecer</span> tu Negocio?
       </h2>
       <p class="text-lg text-slate-600 max-w-xl mx-auto mb-10">
         Deja de luchar con herramientas complicadas. Descubre cómo nuestro Micro POS con mini tienda online puede transformar tu día a día.
       </p>
       <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-        <a href="#solicitar-demo" class="w-full sm:w-auto bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+        <a href="#solicitar-demo" class="w-full sm:w-auto bg-secondary-600 hover:bg-secondary-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">
           Solicitar una Demo
         </a>
         <a href="#mas-informacion" class="w-full sm:w-auto bg-slate-200 hover:bg-slate-300 text-slate-700 font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300">

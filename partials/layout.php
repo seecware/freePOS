@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include __DIR__ . '/header.php'; ?>
-    <div class="h-screen">
+    <div class="min-h-screen">
         <?php include __DIR__ . "/../views/{$name}.php"; ?>
     </div>
     <?php include __DIR__ . '/footer.php'; ?>
