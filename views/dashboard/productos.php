@@ -1,11 +1,3 @@
-<?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
-$loggedIn = isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'];
-?>
-
 <div class="max-w-7xl mx-auto mt-6 p-6 bg-white shadow rounded">
     <h2 class="text-2xl font-semibold text-gray-800">Productos</h2>
     <p class="text-gray-600 mt-2">Busca un producto o regístralo si tienes acceso.</p>
