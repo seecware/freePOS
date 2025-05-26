@@ -10,7 +10,7 @@
       <p class="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto mb-8 animate-fade-in-up animation-delay-200">
         Gestiona tus ventas, inventario y lanza tu mini tienda en línea con una herramienta esencial, sin complicaciones. Todo lo que necesitas, directamente al grano.
       </p>
-      <a href="#descubre" class="inline-block bg-primary-600 hover:bg-secondary-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-fade-in-up animation-delay-400">
+      <a href="/dashboard" class="inline-block bg-primary-600 hover:bg-secondary-700 text-white font-semibold py-3 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-fade-in-up animation-delay-400">
         Descubre Cómo
       </a>
     </div>
