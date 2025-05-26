@@ -2,7 +2,10 @@
 return [
     'GET' => [
         '/' => ['StaticContentController', 'renderContent', "landing", ["title" => "Home"]],
-        '/dashboard' => ['StaticContentController', 'renderContent', "home", ["title" => "Dashboard..."]],
+        '/dashboard' => ['StaticContentController', 'renderContent', "dashboard/dashboard", ["title" => "Dashboard..."]],
+        '/ventas' => ['StaticContentController', 'renderContent', "dashboard/ventas", ["title" => "Ventas"]],
+        '/productos' => ['StaticContentController', 'renderContent', "dashboard/productos", ["title" => "Productos"]],
+        '/almacen' => ['StaticContentController', 'renderContent', "dashboard/almacen", ["title" => "Almacén"]],
         '/contact' => ['StaticContentController', 'renderContent', 'contact', ["title" => "Contact"]],
         '/new-client' => ['StaticContentController', 'renderContent', 'new-client', ["title" => "Adding client..."]],
         '/new-added-client' => ['ClientsController', 'confirmation', 'new-added-client', ["title" => "Added!"]],
