@@ -2,6 +2,7 @@
 return [
     'GET' => [
         '/' => ['StaticContentController', 'renderContent', "landing", ["title" => "Home"]],
+        '/home' => ['StaticContentController', 'renderContent', "landing", ["title" => "Home"]],
         '/dashboard' => ['StaticContentController', 'renderContent', "dashboard/dashboard", ["title" => "Dashboard..."]],
         '/ventas' => ['StaticContentController', 'renderContent', "dashboard/ventas", ["title" => "Ventas"]],
         '/productos' => ['StaticContentController', 'renderContent', "dashboard/productos", ["title" => "Productos"]],
