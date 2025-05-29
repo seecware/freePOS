@@ -1,4 +1,4 @@
-const submitForm = document.getElementById("submitForm");
+const form = document.getElementById("registration_form");
 
 const registerData = () => {
     const name = document.getElementById("user_name");
@@ -6,29 +6,22 @@ const registerData = () => {
     const birthdate = document.getElementById("birthdate");
     const password = document.getElementById("password");
     const confirmPassword = document.getElementById("confirm_password");
-    const errorMessage = document.getElementById("error_message");
-    const messageSucces = document.getElementById("message_succes");
+    const errorMessage = document.getElementById("error_message");//cuando las contraseñas no son las mismas
+    const messageEmptyFiles = document.getElementById("message_succes");
+    const registrateSecction = document.getElementById("registrate_secction");
+    const succesRegistrate = document.getElementById("animation_succes");
 
     if(name.value==="" || email.value==="" || birthdate.value==="" || password.value===""){
-        messageSucces.style.display = "flex";
-        messageSucces.style.backgroundColor = "rgb(247 187 187)";
-        messageSucces.style.color = "rgb(83 20 20)";
-        messageSucces.textContent = "Hay campos incompletos";
-
+        messageEmptyFiles.style.display = "flex";
         return;
     }
-    messageSucces.style.display = "none";
+
+    messageEmptyFiles.style.display = "none";
     if(confirmPassword.value === password.value){
+        registrateSecction.classList.add("hidden");
+        succesRegistrate.classList.remove("hidden");
         //aqui va el codigo para enviar data a db para crear cuenta
-        messageSucces.style.display = "flex"; 
-        messageSucces.style.backgroundColor = "rgb(187 247 208)";//verde claro
-        messageSucces.style.color = "rgb(20 83 45)";//verde fuerte
-        messageSucces.textContent = "¡Cuenta creada exitosamente!";
-        password.style.backgroundColor = "white";
-        confirmPassword.style.backgroundColor = "white";
-        password.style.borderColor = "#d1d5db";
-        confirmPassword.style.borderColor = "#d1d5db";
-        errorMessage.style.display = "none"
+
     }else{
         errorMessage.style.display = "flex";
         password.style.borderColor = "red";
@@ -39,4 +32,7 @@ const registerData = () => {
 }
 
 
-submitForm.addEventListener("click",registerData);
+form.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    registerData();
+});
