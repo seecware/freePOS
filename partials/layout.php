@@ -8,6 +8,19 @@
 </head>
 <body>
     <?php include __DIR__ . '/header.php'; ?>
+    <?php
+    // Mostrar botón "Volver al Dashboard" solo si estás en una subruta de dashboard
+    $uri = $_SERVER['REQUEST_URI'];
+    $mostrarVolverDashboard = str_starts_with($uri, '/dashboard') && $uri !== '/dashboard';
+    ?>
+
+    <?php if ($mostrarVolverDashboard): ?>
+      <div class="mb-4 max-w-7xl mx-auto mt-6 px-6">
+        <a href="/dashboard" class="inline-flex items-center text-sm bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition">
+          ← Volver al Dashboard
+        </a>
+      </div>
+    <?php endif; ?>
     <div class="min-h-screen">
         <?php include __DIR__ . "/../views/{$name}.php"; ?>
     </div>

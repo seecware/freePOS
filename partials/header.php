@@ -6,6 +6,7 @@
 
     <nav class="hidden md:flex space-x-4 lg:space-x-6 items-center">
       <a href="/contact" class="text-slate-600 hover:text-sky-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150">Contacto</a>
+      <a href="/" class="text-slate-600 hover:text-sky-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150">Home</a>
       <a href="/login" class="bg-primary-600 text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-sky-700 transition-colors duration-150 shadow-sm hover:shadow-md">
         Iniciar Sesión
       </a>

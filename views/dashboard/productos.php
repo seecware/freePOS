@@ -1,3 +1,4 @@
+
 <div class="max-w-7xl mx-auto mt-6 p-6 bg-white shadow rounded">
     <h2 class="text-2xl font-semibold text-gray-800">Productos</h2>
     <p class="text-gray-600 mt-2">Busca un producto o regístralo si tienes acceso.</p>
@@ -6,14 +7,13 @@
     <input type="text" id="searchInput" class="w-full p-2 border border-gray-300 rounded mt-4" 
         placeholder="Buscar producto..." onkeyup="searchProduct()">
 
-    <?php if ($loggedIn): ?>
-    <!-- Botón para registrar producto (solo aparece si está logeado) -->
+
     <div class="mt-4">
-        <a href="/productos/registrar" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
+        <a href="/dashboard/registroproducto" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
             Registrar Producto
         </a>
     </div>
-    <?php endif; ?>
+
 
     <!-- Contenedor de resultados de búsqueda -->
     <div id="results" class="mt-6"></div>
